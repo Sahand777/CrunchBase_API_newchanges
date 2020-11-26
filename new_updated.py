@@ -28,7 +28,7 @@ def url_extraction(query, url):
     return normalized_raw
 
 # %% Query for getting all of organizations that are updated yesterday
-userkey = {"user_key":"fac30a50475edbc79ca1d0cf08282be5"}
+userkey = {"user_key":"user key"}
 yesterday = datetime.date.today() - datetime.timedelta(days=1)
 before_yeterday = datetime.date.today() - datetime.timedelta(days=2)
 yesterday = yesterday.strftime("%m/%d/%Y")
